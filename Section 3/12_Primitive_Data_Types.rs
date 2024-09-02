@@ -22,4 +22,13 @@ fn main() {
 
     // Unit Type
     let unit: () = (); // Represents "no value"
+
+    // Type Alias
+    type Age: u8;
+    let peter_age:Age =42;
+
+    // Type Conversion
+    let a:i32=65;
+    let b:f64=a as f64;
+
 }
