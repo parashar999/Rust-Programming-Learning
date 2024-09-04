@@ -33,7 +33,7 @@ fn main()
         `Here code will compile. This is because the rust compiler counts the active period of reference, 
         also called the scope of reference and it is counted from a line in which it is introduced or 
         defined until the last line in which that reference is being used.Here Scope of ref1 is 
-        limited to line no. 20 and scope of ref2 is limited to line no 37. There is no overlap, 
+        limited to line no. 20 and scope of ref2 is limited to line no 42. There is no overlap, 
         meaning that at any given time we have only one mutable reference , hence no violation of rule` 
         
         let ref2: &mut Vec<i32> = &mut vec_1;
